@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acitvity.LoginActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/view_page_image"
+        />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="405dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/cire"
+        />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/view_page_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="40dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/cuttom_fb"
+        />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/cuttom_gg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="SIGN UP"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:id="@+id/txt_sigin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="30dp"
+        android:textSize="14sp"
+        android:textColor="#FA508C"
+        android:textStyle="bold"
+        android:text="LOGIN"
+        android:id="@+id/txt_login"
+         />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

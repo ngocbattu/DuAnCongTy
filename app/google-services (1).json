@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "317139702078",
+    "firebase_url": "https://logingg-b4e78-default-rtdb.firebaseio.com",
+    "project_id": "logingg-b4e78",
+    "storage_bucket": "logingg-b4e78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317139702078:android:a5643d0c67e4a989e5dc6f",
+        "android_client_info": {
+          "package_name": "vidu.demo.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317139702078-q4bqdb3s8ian493k6vv5rluiv8tmqg1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYoqPgMjF_sOF3LXJIGeKWR-jp9Z-HzlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317139702078-q4bqdb3s8ian493k6vv5rluiv8tmqg1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

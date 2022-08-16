@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_home" android:icon="@drawable/ic_home"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/item_lich" android:icon="@drawable/ic_lich"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/item_discover" android:icon="@drawable/ic_discover"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/item_ca_nhan" android:icon="@drawable/ic_ca_nhan"
+        tools:ignore="MenuTitle" />
+
+</menu>
